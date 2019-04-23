@@ -1,0 +1,17 @@
+Package: com.CmST0us.netud
+Name: netud
+Version: 1.0-1
+Description: 
+Section: System
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: CmST0us
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

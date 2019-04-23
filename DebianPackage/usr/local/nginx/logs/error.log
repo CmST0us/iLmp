@@ -1,0 +1,121 @@
+2015/07/05 14:28:02 [emerg] 30841#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/05 14:28:02 [emerg] 30841#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/05 14:28:02 [emerg] 30841#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/05 14:28:02 [emerg] 30841#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 01:33:27 [emerg] 2096#0: still could not bind()
+2015/07/23 02:10:00 [alert] 2477#0: worker process 2480 exited on signal 9
+2015/07/23 02:49:48 [error] 3048#0: *971 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 02:49:48 [error] 3048#0: *970 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 02:51:03 [error] 3048#0: *1033 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 02:54:32 [error] 3048#0: *1035 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 02:54:32 [error] 3048#0: *1037 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 02:58:33 [error] 3049#0: *1353 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://face.weiphone.com/images/noavatar_small.gif HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "face.weiphone.com", referrer: "http://bbs.feng.com/read-htm-tid-8852076.html"
+2015/07/23 03:19:14 [error] 3049#0: *2180 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 03:19:14 [error] 3049#0: *2181 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://init.ess.apple.com/WebObjects/VCInit.woa/wa/getBag?ix=4 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "init.ess.apple.com"
+2015/07/23 03:23:43 [error] 3049#0: *2247 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "GET http://163.177.153.78:80/club/mobile/profile/summary_card/summary_card_json_5.6_3_1437618060.json HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "imgcache.qq.com"
+2015/07/23 03:27:50 [error] 3048#0: *2319 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://puds.ucweb.com/upgrade/index.xhtml?dataver=pb HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "puds.ucweb.com"
+2015/07/23 03:28:10 [error] 3048#0: *2372 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://client.tv.uc.cn/ios/ts HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "client.tv.uc.cn"
+2015/07/23 03:28:10 [error] 3048#0: *2377 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://client.tv.uc.cn/ios/refresh_show_url HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "client.tv.uc.cn"
+2015/07/23 03:28:10 [error] 3048#0: *2378 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://uc.ucweb.com:80/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "uc.ucweb.com"
+2015/07/23 03:33:25 [error] 3049#0: *2480 upstream timed out (60: Operation timed out) while reading upstream, client: 127.0.0.1, server: localhost, request: "POST http://tuiserver.tongbu.com/tbtui.aspx?type=3&p=iPhone5,2&v=8.4&sv=3.2.5&sn=&lan=0&lanstr=zh-Hans&uuid=&u=&ib=1&mac=&ou=ea686193fb30ef4613628430a845cd55f13d2844&adid=53722381-9E1F-4A9A-B9C6-1C1EDC72CDC9&tuitype=1&venid=34EEB1B7-0A07-44D1-9A51-41FA5F03EFF0&d=1&sku=com.tongbu.tuideb&dsv=1003 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "tuiserver.tongbu.com"
+2015/07/23 03:34:53 [error] 3048#0: *2598 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/h4KOl9sBSWvvrCABPWTB?x-client-request-id=97e39762-34fa-4d6e-9ade-7f085c4cb958&sp=r&sr=b&byte-range=0-21339&se=2015-07-23T02:20Z&st=2015-07-23T01:24Z&sig=1FmWv8ZTPM5748mG%2FlGd2Mq8fI1uJQqKpG6JQb3OwUo%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/23 03:34:53 [error] 3048#0: *2599 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/cklktBwBSW5r0vUBPWP4?x-client-request-id=97e39762-34fa-4d6e-9ade-7f085c4cb958&sp=r&sr=b&byte-range=182-23177&se=2015-07-23T02:20Z&st=2015-07-23T01:24Z&sig=UH27Qy9pd9NlbTsBCFPY61wbFm43EIF%2FoS0rdogdcs8%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/23 03:57:26 [error] 3049#0: *3721 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/41Ccpl8BSW7awjsBPWP3?x-client-request-id=97e39762-34fa-4d6e-9ade-7f085c4cb958&sp=r&sr=b&byte-range=0-13810&se=2015-07-23T02:20Z&st=2015-07-23T01:24Z&sig=4amDH8wDBhjxPwyt75mq3CfYJub1JbRKjr1gF1XwAjQ%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/23 03:57:26 [error] 3049#0: *3722 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/MER_4AgBSW7Zv4ABPWS_?x-client-request-id=97e39762-34fa-4d6e-9ade-7f085c4cb958&sp=r&sr=b&byte-range=1090717-1106418&se=2015-07-23T02:20Z&st=2015-07-23T01:24Z&sig=u8QHxpNpmNThni77iqqEmZww89Z3DzjWbtN42pNmgJU%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/23 03:57:29 [error] 3049#0: *3725 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/U33Fv4cBSW7MVwMBPWWJ?x-client-request-id=97e39762-34fa-4d6e-9ade-7f085c4cb958&sp=r&sr=b&byte-range=5202116-5402281&se=2015-07-23T02:20Z&st=2015-07-23T01:24Z&sig=FXaDDtJLo5GB1DcbPKAErYNW%2B5ss9DOVrstktLfbYME%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/23 04:50:20 [error] 3049#0: *4135 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://data.flurry.com/aas.do HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "data.flurry.com"
+2015/07/23 04:51:20 [error] 3049#0: *4135 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://data.flurry.com/aas.do HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "data.flurry.com"
+2015/07/23 04:54:54 [error] 3048#0: *4367 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://s.p.qq.com/pub/check_bizup?uin=0&qver=2.2&pf=2&hver=24456&biz=107 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "s.p.qq.com"
+2015/07/23 04:55:06 [error] 3049#0: *4340 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://vs2.gzcu.u3.ucweb.com/?ucid=1507-18389309191-26a96c74 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "vs2.gzcu.u3.ucweb.com"
+2015/07/23 04:55:06 [error] 3048#0: *4369 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://vs2.gzcu.u3.ucweb.com/?ucid=1507-18389309191-26a96c74 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "vs2.gzcu.u3.ucweb.com"
+2015/07/23 04:55:06 [error] 3048#0: *4377 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST http://safe.ucweb.com:80/?dataver=pb HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "safe.ucweb.com"
+2015/07/23 15:33:02 [emerg] 1267#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:33:02 [emerg] 1267#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:33:02 [emerg] 1267#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:33:02 [emerg] 1267#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:33:02 [emerg] 1267#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:33:02 [emerg] 1267#0: still could not bind()
+2015/07/23 15:34:06 [error] 1251#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://dy.cc/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "dy.cc"
+2015/07/23 15:34:06 [error] 1251#0: *2 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mesu.apple.com"
+2015/07/23 15:34:06 [error] 1251#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://dy.cc/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "dy.cc"
+2015/07/23 15:34:06 [error] 1251#0: *2 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mesu.apple.com"
+2015/07/23 15:48:30 [emerg] 1423#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:48:30 [emerg] 1423#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:48:30 [emerg] 1423#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:48:30 [emerg] 1423#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:48:30 [emerg] 1423#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:48:30 [emerg] 1423#0: still could not bind()
+2015/07/23 15:50:08 [emerg] 1431#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:50:08 [emerg] 1431#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:50:08 [emerg] 1431#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:50:08 [emerg] 1431#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:50:08 [emerg] 1431#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:50:08 [emerg] 1431#0: still could not bind()
+2015/07/23 15:53:40 [emerg] 1441#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:53:40 [emerg] 1441#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:53:40 [emerg] 1441#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:53:40 [emerg] 1441#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:53:40 [emerg] 1441#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:53:40 [emerg] 1441#0: still could not bind()
+2015/07/23 15:55:54 [emerg] 1452#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:55:54 [emerg] 1452#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:55:54 [emerg] 1452#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:55:54 [emerg] 1452#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:55:54 [emerg] 1452#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:55:54 [emerg] 1452#0: still could not bind()
+2015/07/23 15:57:08 [emerg] 1466#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:08 [emerg] 1466#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:08 [emerg] 1466#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:08 [emerg] 1466#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:08 [emerg] 1466#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:08 [emerg] 1466#0: still could not bind()
+2015/07/23 15:57:42 [emerg] 1474#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:42 [emerg] 1474#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:42 [emerg] 1474#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:42 [emerg] 1474#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:42 [emerg] 1474#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:57:42 [emerg] 1474#0: still could not bind()
+2015/07/23 15:59:10 [emerg] 1486#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:59:10 [emerg] 1486#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:59:10 [emerg] 1486#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:59:10 [emerg] 1486#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:59:10 [emerg] 1486#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 15:59:10 [emerg] 1486#0: still could not bind()
+2015/07/23 16:00:26 [emerg] 1497#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:26 [emerg] 1497#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:26 [emerg] 1497#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:26 [emerg] 1497#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:26 [emerg] 1497#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:26 [emerg] 1497#0: still could not bind()
+2015/07/23 16:00:33 [emerg] 1504#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:33 [emerg] 1504#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:33 [emerg] 1504#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:33 [emerg] 1504#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:33 [emerg] 1504#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:00:33 [emerg] 1504#0: still could not bind()
+2015/07/23 16:02:45 [emerg] 1576#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:02:45 [emerg] 1576#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:02:45 [emerg] 1576#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:02:45 [emerg] 1576#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:02:45 [emerg] 1576#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:02:45 [emerg] 1576#0: still could not bind()
+2015/07/23 16:05:34 [emerg] 1584#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:05:34 [emerg] 1584#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:05:34 [emerg] 1584#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:05:34 [emerg] 1584#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:05:34 [emerg] 1584#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2015/07/23 16:05:34 [emerg] 1584#0: still could not bind()
+2015/07/24 06:52:57 [error] 1944#0: *8 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/41Ccpl8BSW7awjsBPWP3?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=0-13810&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=6z02792GyHQHcdPEHoeI2yhpS0QfqrILvnbvttr57d0%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 06:52:57 [error] 1944#0: *10 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/-vVjDMEBSW7ZfI0BPWOV?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=397519-405570&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=Cqp3EZeSIpLngbjtgOO2XOGmxOKrC%2Bqw9wyrKVJYp5U%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 06:52:57 [error] 1944#0: *9 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/LwlHpfEBSW6RILEBPWP4?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=0-32834&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=0q3dw19Y%2BPibHE3nfdPWnM81el3qU4WcoS%2By8E7fQzg%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 06:54:03 [error] 1944#0: *17 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/U33Fv4cBSW7MVwMBPWWJ?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=904828-948567&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=nuqpF4eAzrAKGJgxEKUMgT4R%2FBKGMThgWjxSlLJcpvA%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 07:57:59 [error] 2284#0: *11 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/U33Fv4cBSW7MVwMBPWWJ?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=5660531-5706085&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=nuqpF4eAzrAKGJgxEKUMgT4R%2FBKGMThgWjxSlLJcpvA%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 07:57:59 [error] 2284#0: *30 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/h4KOl9sBSWvvrCABPWTB?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=0-21339&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=HnuRdp5q7iKlYQYIdSv9xlixzBr8ONA43PDlx58RGYk%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 07:57:59 [error] 2284#0: *31 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/U33Fv4cBSW7MVwMBPWWJ?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=4608206-4833434&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=nuqpF4eAzrAKGJgxEKUMgT4R%2FBKGMThgWjxSlLJcpvA%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 07:59:04 [error] 2284#0: *37 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/U33Fv4cBSW7MVwMBPWWJ?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=5486076-5652490&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=nuqpF4eAzrAKGJgxEKUMgT4R%2FBKGMThgWjxSlLJcpvA%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"
+2015/07/24 07:59:04 [error] 2284#0: *38 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET http://mssin000020.blob.core.windows.net:80/cnt/LwlHpfEBSW6RILEBPWP4?x-client-request-id=bc17f413-7d53-4124-a577-517fa064ce56&sp=r&sr=b&byte-range=0-32834&se=2015-07-24T07:24Z&st=2015-07-24T06:28Z&sig=0q3dw19Y%2BPibHE3nfdPWnM81el3qU4WcoS%2By8E7fQzg%3D HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "mssin000020.blob.core.windows.net:80"

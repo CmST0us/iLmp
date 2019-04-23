@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F18D3CF1B2D9C3B0098C39C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F18D3CE1B2D9C3B0098C39C /* Cocoa.framework */; };
+		4F18D3D91B2D9C3B0098C39C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F18D3D71B2D9C3B0098C39C /* InfoPlist.strings */; };
+		4F18D3DB1B2D9C3B0098C39C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18D3DA1B2D9C3B0098C39C /* main.m */; };
+		4F18D3DF1B2D9C3B0098C39C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4F18D3DD1B2D9C3B0098C39C /* Credits.rtf */; };
+		4F18D3E21B2D9C3B0098C39C /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18D3E11B2D9C3B0098C39C /* ILAppDelegate.m */; };
+		4F18D3E51B2D9C3C0098C39C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F18D3E31B2D9C3C0098C39C /* MainMenu.xib */; };
+		4F18D3E71B2D9C3C0098C39C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F18D3E61B2D9C3C0098C39C /* Images.xcassets */; };
+		4F18D3EE1B2D9C3C0098C39C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F18D3ED1B2D9C3C0098C39C /* XCTest.framework */; };
+		4F18D3EF1B2D9C3C0098C39C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F18D3CE1B2D9C3B0098C39C /* Cocoa.framework */; };
+		4F18D3F71B2D9C3C0098C39C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F18D3F51B2D9C3C0098C39C /* InfoPlist.strings */; };
+		4F18D3F91B2D9C3C0098C39C /* iLmp_CreaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18D3F81B2D9C3C0098C39C /* iLmp_CreaterTests.m */; };
+		4F18D4061B2DA2900098C39C /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18D4031B2DA2900098C39C /* NSData+AES256.m */; };
+		4F18D4071B2DA2900098C39C /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18D4051B2DA2900098C39C /* NSString+AES256.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F18D3F01B2D9C3C0098C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F18D3C31B2D9C3B0098C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F18D3CA1B2D9C3B0098C39C;
+			remoteInfo = "iLmp-Creater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F18D3CB1B2D9C3B0098C39C /* iLmp-Creater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLmp-Creater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F18D3CE1B2D9C3B0098C39C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F18D3D11B2D9C3B0098C39C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4F18D3D21B2D9C3B0098C39C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4F18D3D31B2D9C3B0098C39C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F18D3D61B2D9C3B0098C39C /* iLmp-Creater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLmp-Creater-Info.plist"; sourceTree = "<group>"; };
+		4F18D3D81B2D9C3B0098C39C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F18D3DA1B2D9C3B0098C39C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F18D3DC1B2D9C3B0098C39C /* iLmp-Creater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLmp-Creater-Prefix.pch"; sourceTree = "<group>"; };
+		4F18D3DE1B2D9C3B0098C39C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4F18D3E01B2D9C3B0098C39C /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		4F18D3E11B2D9C3B0098C39C /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		4F18D3E41B2D9C3C0098C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F18D3E61B2D9C3C0098C39C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F18D3EC1B2D9C3C0098C39C /* iLmp-CreaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLmp-CreaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F18D3ED1B2D9C3C0098C39C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F18D3F41B2D9C3C0098C39C /* iLmp-CreaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLmp-CreaterTests-Info.plist"; sourceTree = "<group>"; };
+		4F18D3F61B2D9C3C0098C39C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F18D3F81B2D9C3C0098C39C /* iLmp_CreaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLmp_CreaterTests.m; sourceTree = "<group>"; };
+		4F18D4021B2DA2900098C39C /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		4F18D4031B2DA2900098C39C /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		4F18D4041B2DA2900098C39C /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		4F18D4051B2DA2900098C39C /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F18D3C81B2D9C3B0098C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3CF1B2D9C3B0098C39C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F18D3E91B2D9C3C0098C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3EF1B2D9C3C0098C39C /* Cocoa.framework in Frameworks */,
+				4F18D3EE1B2D9C3C0098C39C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F18D3C21B2D9C3B0098C39C = {
+			isa = PBXGroup;
+			children = (
+				4F18D3D41B2D9C3B0098C39C /* iLmp-Creater */,
+				4F18D3F21B2D9C3C0098C39C /* iLmp-CreaterTests */,
+				4F18D3CD1B2D9C3B0098C39C /* Frameworks */,
+				4F18D3CC1B2D9C3B0098C39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F18D3CC1B2D9C3B0098C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3CB1B2D9C3B0098C39C /* iLmp-Creater.app */,
+				4F18D3EC1B2D9C3C0098C39C /* iLmp-CreaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F18D3CD1B2D9C3B0098C39C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3CE1B2D9C3B0098C39C /* Cocoa.framework */,
+				4F18D3ED1B2D9C3C0098C39C /* XCTest.framework */,
+				4F18D3D01B2D9C3B0098C39C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F18D3D01B2D9C3B0098C39C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3D11B2D9C3B0098C39C /* AppKit.framework */,
+				4F18D3D21B2D9C3B0098C39C /* CoreData.framework */,
+				4F18D3D31B2D9C3B0098C39C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4F18D3D41B2D9C3B0098C39C /* iLmp-Creater */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D4021B2DA2900098C39C /* NSData+AES256.h */,
+				4F18D4031B2DA2900098C39C /* NSData+AES256.m */,
+				4F18D4041B2DA2900098C39C /* NSString+AES256.h */,
+				4F18D4051B2DA2900098C39C /* NSString+AES256.m */,
+				4F18D3E01B2D9C3B0098C39C /* ILAppDelegate.h */,
+				4F18D3E11B2D9C3B0098C39C /* ILAppDelegate.m */,
+				4F18D3E31B2D9C3C0098C39C /* MainMenu.xib */,
+				4F18D3E61B2D9C3C0098C39C /* Images.xcassets */,
+				4F18D3D51B2D9C3B0098C39C /* Supporting Files */,
+			);
+			path = "iLmp-Creater";
+			sourceTree = "<group>";
+		};
+		4F18D3D51B2D9C3B0098C39C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3D61B2D9C3B0098C39C /* iLmp-Creater-Info.plist */,
+				4F18D3D71B2D9C3B0098C39C /* InfoPlist.strings */,
+				4F18D3DA1B2D9C3B0098C39C /* main.m */,
+				4F18D3DC1B2D9C3B0098C39C /* iLmp-Creater-Prefix.pch */,
+				4F18D3DD1B2D9C3B0098C39C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F18D3F21B2D9C3C0098C39C /* iLmp-CreaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3F81B2D9C3C0098C39C /* iLmp_CreaterTests.m */,
+				4F18D3F31B2D9C3C0098C39C /* Supporting Files */,
+			);
+			path = "iLmp-CreaterTests";
+			sourceTree = "<group>";
+		};
+		4F18D3F31B2D9C3C0098C39C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F18D3F41B2D9C3C0098C39C /* iLmp-CreaterTests-Info.plist */,
+				4F18D3F51B2D9C3C0098C39C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F18D3CA1B2D9C3B0098C39C /* iLmp-Creater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F18D3FC1B2D9C3C0098C39C /* Build configuration list for PBXNativeTarget "iLmp-Creater" */;
+			buildPhases = (
+				4F18D3C71B2D9C3B0098C39C /* Sources */,
+				4F18D3C81B2D9C3B0098C39C /* Frameworks */,
+				4F18D3C91B2D9C3B0098C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iLmp-Creater";
+			productName = "iLmp-Creater";
+			productReference = 4F18D3CB1B2D9C3B0098C39C /* iLmp-Creater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F18D3EB1B2D9C3C0098C39C /* iLmp-CreaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F18D3FF1B2D9C3C0098C39C /* Build configuration list for PBXNativeTarget "iLmp-CreaterTests" */;
+			buildPhases = (
+				4F18D3E81B2D9C3C0098C39C /* Sources */,
+				4F18D3E91B2D9C3C0098C39C /* Frameworks */,
+				4F18D3EA1B2D9C3C0098C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F18D3F11B2D9C3C0098C39C /* PBXTargetDependency */,
+			);
+			name = "iLmp-CreaterTests";
+			productName = "iLmp-CreaterTests";
+			productReference = 4F18D3EC1B2D9C3C0098C39C /* iLmp-CreaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F18D3C31B2D9C3B0098C39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CmST0us;
+				TargetAttributes = {
+					4F18D3EB1B2D9C3C0098C39C = {
+						TestTargetID = 4F18D3CA1B2D9C3B0098C39C;
+					};
+				};
+			};
+			buildConfigurationList = 4F18D3C61B2D9C3B0098C39C /* Build configuration list for PBXProject "iLmp-Creater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F18D3C21B2D9C3B0098C39C;
+			productRefGroup = 4F18D3CC1B2D9C3B0098C39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F18D3CA1B2D9C3B0098C39C /* iLmp-Creater */,
+				4F18D3EB1B2D9C3C0098C39C /* iLmp-CreaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F18D3C91B2D9C3B0098C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3D91B2D9C3B0098C39C /* InfoPlist.strings in Resources */,
+				4F18D3E71B2D9C3C0098C39C /* Images.xcassets in Resources */,
+				4F18D3DF1B2D9C3B0098C39C /* Credits.rtf in Resources */,
+				4F18D3E51B2D9C3C0098C39C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F18D3EA1B2D9C3C0098C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3F71B2D9C3C0098C39C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F18D3C71B2D9C3B0098C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3DB1B2D9C3B0098C39C /* main.m in Sources */,
+				4F18D4071B2DA2900098C39C /* NSString+AES256.m in Sources */,
+				4F18D4061B2DA2900098C39C /* NSData+AES256.m in Sources */,
+				4F18D3E21B2D9C3B0098C39C /* ILAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F18D3E81B2D9C3C0098C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18D3F91B2D9C3C0098C39C /* iLmp_CreaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F18D3F11B2D9C3C0098C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F18D3CA1B2D9C3B0098C39C /* iLmp-Creater */;
+			targetProxy = 4F18D3F01B2D9C3C0098C39C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F18D3D71B2D9C3B0098C39C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F18D3D81B2D9C3B0098C39C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F18D3DD1B2D9C3B0098C39C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F18D3DE1B2D9C3B0098C39C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4F18D3E31B2D9C3C0098C39C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F18D3E41B2D9C3C0098C39C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4F18D3F51B2D9C3C0098C39C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F18D3F61B2D9C3C0098C39C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F18D3FA1B2D9C3C0098C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F18D3FB1B2D9C3C0098C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F18D3FD1B2D9C3C0098C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLmp-Creater/iLmp-Creater-Prefix.pch";
+				INFOPLIST_FILE = "iLmp-Creater/iLmp-Creater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F18D3FE1B2D9C3C0098C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLmp-Creater/iLmp-Creater-Prefix.pch";
+				INFOPLIST_FILE = "iLmp-Creater/iLmp-Creater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F18D4001B2D9C3C0098C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLmp-Creater.app/Contents/MacOS/iLmp-Creater";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLmp-Creater/iLmp-Creater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iLmp-CreaterTests/iLmp-CreaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F18D4011B2D9C3C0098C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLmp-Creater.app/Contents/MacOS/iLmp-Creater";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLmp-Creater/iLmp-Creater-Prefix.pch";
+				INFOPLIST_FILE = "iLmp-CreaterTests/iLmp-CreaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F18D3C61B2D9C3B0098C39C /* Build configuration list for PBXProject "iLmp-Creater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F18D3FA1B2D9C3C0098C39C /* Debug */,
+				4F18D3FB1B2D9C3C0098C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F18D3FC1B2D9C3C0098C39C /* Build configuration list for PBXNativeTarget "iLmp-Creater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F18D3FD1B2D9C3C0098C39C /* Debug */,
+				4F18D3FE1B2D9C3C0098C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F18D3FF1B2D9C3C0098C39C /* Build configuration list for PBXNativeTarget "iLmp-CreaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F18D4001B2D9C3C0098C39C /* Debug */,
+				4F18D4011B2D9C3C0098C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F18D3C31B2D9C3B0098C39C /* Project object */;
+}

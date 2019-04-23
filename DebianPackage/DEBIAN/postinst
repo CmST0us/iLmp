@@ -1,0 +1,27 @@
+#!/bin/sh
+chown -R root:wheel /var/www
+chmod -R 777 /var/www
+chmod -R 755 /Applications/iLmp-gui7-www.app/
+chown -R root:wheel /Applications/iLmp-gui7-www.app/
+chmod 6755 /Applications/iLmp-gui7-www.app/iLmp-gui7-www_
+chmod -R 755 /usr/local/nginx
+chmod -R 755 /usr/local/php
+chown -R root:wheel /usr/local/nginx
+chown -R root:wheel /usr/local/php
+chmod -R 755 /usr/local/haproxy
+chown -R root:wheel /usr/local/haproxy
+chmod 755 /usr/libexec/netud
+chmod 755 /Library/LaunchDaemons/com.CmST0us.netud.plist
+chown root:wheel /Library/LaunchDaemons/com.CmST0us.netud.plist
+chown root:wheel /usr/libexec/netud
+ldid -S /Applications/iLmp-gui7-www.app/iLmp-gui7-www_
+ldid -S /usr/local/nginx/sbin/nginx
+ldid -S /usr/local/php/sbin/php-fpm
+ldid -S /usr/local/php/bin/php
+ldid -S /usr/local/php/bin/php-cgi
+ldid -S /usr/local/php/bin/php-config
+ldid -S /usr/local/php/bin/phpize
+ldid -S /usr/local/php/bin/
+ldid -S /usr/local/haproxy/sbin/haproxy
+ldid -S /usr/local/haproxy/sbin/haproxy-systemd-wrapper
+ldid -S /usr/libexec/netud

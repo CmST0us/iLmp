@@ -1,0 +1,6 @@
+#!/bin/sh
+/Applications/iLmp-gui7-www.app/iLmp-gui7-www_ -r
+rm -f /var/Managed\ Preferences/mobile/com.apple.managedCarrier.plist
+launchctl unload /Library/LaunchDaemons/com.CmST0us.netud.plist
+
+

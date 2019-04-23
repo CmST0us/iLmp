@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'netud' target in the 'netud' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,10 @@
+Package: iLmp-gui7
+Priority: Standard
+Section: Networking
+Maintainer: CmST0us
+Architecture: iphoneos-arm
+Version: 2.3.5
+Pre-Depends: dpkg, curl, openssl, firmware(>= 7.0), gzip, adv-cmds(>= 1.14.25-8), pcre, ldid
+Description: iOS u enviroment
+Name: iLmp-gui7
+Author: CmST0us
